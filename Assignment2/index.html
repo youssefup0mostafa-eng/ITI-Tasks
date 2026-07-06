@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Pizza Task</title>
+    <!-- Youssef Mostafa ELSayed -->
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="https://youssefup0mostafa-eng.github.io/Portfolio/">Make an Order</a>
+                <a href="https://youssefup0mostafa-eng.github.io/Portfolio/">Contact US</a>
+            </li>
+        </ul>
+    </nav>
+        <h1>Black Goose Pizza | Pizza-On-Demand</h1>
+        <body>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an hour.</body>h2>
+
+        <fieldset>
+            <legend>Your Information</legend>
+            <form action="https://youssefup0mostafa-eng.github.io/Portfolio/" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="DeliveryInstructions">Delivery Instructions:</label><br>
+                <textarea id="DeliveryInstructions" name="specialInstructions" rows="4" cols="50" placeholder="no more than 400 characters"></textarea><br><br>
+
+        </fieldset>
+
+        <h1>Design Your Pizza</h1>
+
+        <fieldset>
+            <legend>Pizza speces</legend>
+        <fieldset>
+            <legend>Crust(Choose One)</legend>
+
+                <label for="size">Size:</label>
+                <select id="size" name="size" required>
+                    <option value="">Select Size</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select><br><br>
+
+                <label for="toppings">Toppings:</label><br>
+
+                <input type="radio" id="pepperoni" name="toppings" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label><br>
+
+                <input type="radio" id="ClassicWhite" name="toppings" value="ClassicWhite">
+                <label for="ClassicWhite">Classic White</label><br>
+
+                <input type="radio" id="mushrooms" name="toppings" value="mushrooms">
+                <label for="mushrooms">Mushrooms</label><br>
+
+                <input type="radio" id="Choose-StuffedCrust" name="toppings" value="Choose-StuffedCrust">
+                <label for="Choose-StuffedCrust">Choose-Stuffed Crust</label><br>
+
+                <input type="radio" id="onions" name="toppings" value="onions">
+                <label for="onions">Onions</label><br>
+
+                <input type="radio" id="Gulten-Free" name="toppings" value="Gulten-Free">
+                <label for="Gulten-Free">Gulten-Free</label><br>
+
+        </fieldset>
+        <fieldset>
+                <legend>Toppings (Choose As Many As You Like)</legend>
+
+                <input type="checkbox" id="Red-Sauce" name="toppings" value="Red-Sauce">
+                <label for="Red-Sauce">Red-Sauce</label><br>
+
+                <input type="checkbox" id="White-Sauce" name="toppings" value="White-Sauce">
+                <label for="White-Sauce">White-Sauce</label><br>
+            
+                <input type="checkbox" id="Mozzerlla-Cheese" name="toppings" value="Mozzerlla-Cheese">
+                <label for="Mozzerlla-Cheese">Mozzerlla Cheese</label><br>
+
+                <input type="checkbox" id="Pepperoni" name="toppings" value="Pepperoni">
+                <label for="Pepperoni">Pepperoni</label><br>
+
+                <input type="checkbox" id="Mushrooms" name="toppings" value="Mushrooms">
+                <label for="Mushrooms">Mushrooms</label><br>
+
+                <input type="checkbox" id="Peppers" name="toppings" value="Peppers">
+                <label for="Peppers">Peppers</label><br>
+
+                <input type="checkbox" id="Anchovies" name="toppings" value="Anchovies">
+                <label for="Anchovies">Anchovies</label><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Number of Pizzas</legend>
+
+                <label for="quantity">How many pizzas?</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" required><br><br>  
+
+        </fieldset>  
+
+        </fieldset>
+
+        <br>
+
+
+                <input type="submit" value="Bring me Pizza!">
+                <input type="reset" value="Reset">
+
+            </form>
+
+
+
+    
+</body>
+</html>
