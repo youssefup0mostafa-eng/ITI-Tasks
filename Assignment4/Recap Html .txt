@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- The version of HTML -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Declares document encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- To Make The Website Responsive in the Screens Size -->
+    <title>Recap Html Tags and Benefits of Them</title>
+    <!-- To Set title for the page in a tab -->
+</head>
+<body>
+    <a href="https://youssefup0mostafa-eng.github.io/Portfolio/">HTML Links</a>
+    <!-- HTML links are used to create hyperlinks that connect one web page to another.-->
+
+    <abbr title="Hypertext Markup Language">HTML</abbr>
+     <!-- An abbreviation -->
+
+     <nav></nav>
+     <!-- navigation bar -->
+
+     <tabel></tabel>
+     <!-- To Create a Table or Sheet -->
+
+     <ul></ul>
+     <!-- un ordered list -->
+
+     <li></li>
+     <!-- ordered list -->
+
+     <img src="" alt="">
+     <!-- To Put a Photo and Type alternative text if the photo doesnot Render -->
+      
+     <button></button>
+     <!-- Clickable Button To make an Spesefic Mission -->
+
+     <blockquote></blockquote>
+     <!-- Quoted text -->
+
+     <label></label>
+     <!-- To Describe a form input or Create a caption  -->
+
+     <script></script>
+     <!-- Type many script in a html page -->
+
+     <style></style>
+     <!-- Type many style in a html page -->
+
+     <em></em><i></i>
+     <!-- emphasized text -->
+
+     <b></b><strong></strong>
+     <!-- Bold Text -->
+
+     <footer></footer>
+     <!-- footer section instead of div has a footer class -->
+
+     <input type="">
+     <!-- Receive a Data from user in many Style from selected type -->
+
+     <section></section>
+     <!-- introduces semantic sectioning in HTML5 -->
+
+     <audio></audio> <video></video>
+     <!-- HTML5 element is used for media playback -->
+
+     <map></map>
+     <!-- HTML element defines a client-side image map -->
+
+     <div></div>
+     <!-- a Section had grouped in 1 element to share in his Properties -->
+
+     <br>
+     <!-- Break line -->
+
+    <hr>
+    <!-- Horizontal line -->
+
+    <datalist></datalist>
+    <!-- checklist with search option -->
+     <!-- Provide autocomplete options -->
+
+    <p></p>
+    <!-- Paragraph -->.
+
+    <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>
+    <!-- Heading Paragraph with Sizes start from 1 the largest to 6 the  smallest -->
+
+    <iframe></iframe>
+    <!-- iframe -->
+
+    <time></time>
+    <!-- A specific date or time -->
+
+    <!-- <main></main> -->
+     <!-- used to represent the main content of a page -->
+
+
+        header  : Represents the introductory content or a group of navigational links.
+        nav     : Represents a section of navigation links.
+        main    : Represents the main content of the document.
+        section : Represents a thematic grouping of content.
+        article : Represents a self-contained piece of content, such as a blog post or news article.
+        aside   : Represents content that is tangentially related to the main content, such as sidebars or pull quotes.
+        footer  : Represents the footer of a document or section, typically containing copyright information or links.
+
+    <!--  several semantic elements -->
+
+
+    Youssef Mostafa ELSayed Ibrahim
+
+
+
+</body>
+</html>
