@@ -1,0 +1,71 @@
+.nav_bar {
+    gap: 30px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(149, 68, 59);
+    background-color: #dac4c4;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(149, 68, 59);
+    padding: 7px 16px;
+
+}
+
+.res_header {
+    text-align: center;
+    color: rgb(149, 68, 59);
+    font-size: 30px;
+}
+
+.pizza_header {
+    text-align: center;
+    color: #067690;
+    font-size: 30px;
+}
+
+._border {
+    border: 2px solid #067690;
+    padding: 10px;
+    margin: 20px;
+    background-color: #d9d9d9;
+}
+
+.submit_button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.reset_button {
+    background-color: #3c565c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.input {
+    width: 100px;
+    border: 1px solid #067690;
+}
+
+.form{
+        width: 300px;
+    border: 1px solid #067690;
+    
+}
+
+.text_area {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #067690;
+}
