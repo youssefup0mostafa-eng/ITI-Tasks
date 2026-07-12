@@ -1,0 +1,154 @@
+* {
+    direction: ltr;
+}
+
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+}
+
+#nav-bar {
+    background-color:bisque;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#nav-bar .nav-links {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar> a {
+    width:70% ;
+    cursor: pointer;
+}
+
+.nav-img{
+    display:flex ;
+    width:6% ;
+}
+
+.about-section {
+    background-color: darkgrey;
+    border-radius: 20px;
+    display: flex;
+    gap: 14%;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.profile-img{
+    width:20% ;
+    border-radius: 20px;
+
+}
+
+.about-section div {
+    border: 1px solid blanchedalmond ;
+    border-radius: 20px;
+
+}
+
+div 
+h1,
+h2{
+    text-align: center;
+display: block;
+}
+
+.skills-section {
+    background-color: darkgrey;
+    border-radius: 20px;
+}
+
+.contact-button button {
+    background-color: orangered;
+    color: darkblue;
+    border-radius: 10px;
+    width: 32em;
+}
+
+.contact-button button:hover {
+    background-color: #333;
+    color: antiquewhite;
+}
+
+footer div .footer-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: inline;
+    justify-content: left;
+    color: #a9b7cd;
+    }
+
+.footer-logo >div {
+    background: #132235;
+    border-radius: 28px;
+}
+
+.footer-logo .YM-logo {
+    background-color: red;
+    display: flex;
+    width: 6%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer-logo .YM-logo:hover {
+
+    background-color: #333;
+}
+
+.footer-logo .YM-logo img {
+width: 100%;
+}
+
+.contact{
+    font-family: Poppins,sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin-top: 80px;
+    border: 1px solid rgba(103, 232, 249, 0.2);
+    color: #67e8f9;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    background:linear-gradient(135deg, #020617, #041c32);
+
+}
+
+.contact:hover {
+    background: linear-gradient(135deg, #041c32, #064e3b);
+    color: #a7f3d0;
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+    transform: translateY(-2px);
+}

@@ -1,0 +1,62 @@
+div.container {
+    background-color:cadetblue;
+}
+
+.container .main{
+    background-color: darkmagenta;
+}
+
+.container .child{
+    background-color: darkslategrey;
+}
+
+/* ------------------------------------ */
+
+.main p::before{
+content: "#>";
+}
+
+.main p::first-letter{
+color: rgb(5, 216, 236);
+}
+
+.main h4:nth-of-type(1) {
+    color: chocolate;
+}
+
+.main h4:nth-of-type(2) {
+    color: brown;
+}
+
+.main h4:nth-of-type(3) {
+    color: yellowgreen;
+}
+
+.main h4:nth-of-type(4) {
+    color: hotpink;
+}
+
+/* ---------------------------------------*/
+.child p::before{
+content: "#>";
+}
+
+.child p::first-letter{
+color: rgb(5, 216, 236);
+}
+
+.child h4:nth-of-type(1) {
+    color: chocolate;
+}
+
+.child h4:nth-of-type(2) {
+    color: brown;
+}
+
+.child h4:nth-of-type(3) {
+    color: yellowgreen;
+}
+
+.child h4:nth-of-type(4) {
+    color: hotpink;
+}

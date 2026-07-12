@@ -1,0 +1,13 @@
+h1{
+    background-color: darkcyan;
+    color: bisque;
+}
+
+p{
+    background-color: darkolivegreen;
+    border: 1px;
+    width: 20%;
+    height: 350px;
+    overflow: hidden;
+}
+
