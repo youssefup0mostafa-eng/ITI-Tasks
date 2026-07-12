@@ -71,6 +71,8 @@ display: block;
 
 .skills-section {
     background-color: darkgrey;
+    background-image: url(../images/0101-lines.png);
+    color: aliceblue;
     border-radius: 20px;
 }
 
