@@ -1,0 +1,17 @@
+* {
+
+margin: 0;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 80%;
+    height: 400px;
+    margin: 48px auto;
+}
+
+.container h1,
+h2 {
+text-align: center;
+color: blue;
+}

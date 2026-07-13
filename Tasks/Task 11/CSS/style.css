@@ -1,0 +1,35 @@
+.card {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid antiquewhite;
+    width: 24%;
+    background-color: darkgray;
+    text-align: center;
+}
+.card img {
+    width: 100%;     
+}
+
+.card h1,
+p {
+    color :aquamarine;
+    
+}
+.card button {
+    background-color: orangered;
+    color: black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.card button:hover {
+    background-color: gray;
+    color: antiquewhite;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}

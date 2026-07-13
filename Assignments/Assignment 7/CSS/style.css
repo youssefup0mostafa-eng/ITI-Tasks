@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:darkgrey;
+}
+
+#nav-bar {
+    background-color:bisque;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#nav-bar .nav-links {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar> a {
+    width:70% ;
+    cursor: pointer;
+}
+
+.nav-img{
+    display:flex ;
+    width:6% ;
+}
+
+.card{
+    background-color: blanchedalmond; 
+    width: 40%;
+    color: darkblue;
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+
+}
+
+.card img {
+    width: 40%;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card h1,
+p {
+    background-color: blanchedalmond; 
+    margin-bottom: 10px;
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description {
+    margin-bottom: 10px;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card button {
+    background-color: crimson;
+    color: antiquewhite;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.card button:hover {
+    background-color:darksalmon;
+    color: darkslategrey;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}

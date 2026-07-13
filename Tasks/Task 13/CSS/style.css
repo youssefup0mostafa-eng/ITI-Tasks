@@ -1,0 +1,28 @@
+.test {
+    background-color: darkgray;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.test h1,
+p {
+    color: blueviolet;
+}
+
+.test img{
+    width: 40%;
+    color: antiquewhite;
+    margin: 8px auto;
+    border-radius: 20px;
+
+
+}
+
+.test button{
+    background-color: red;
+    border-radius: 20px;
+    color: antiquewhite;
+    margin: 8px auto;
+}

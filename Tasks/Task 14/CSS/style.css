@@ -1,0 +1,33 @@
+.profile {
+      /*background-color: darkgrey;
+      */width: 80%;
+      border: 2px solid darkgrey;
+      border-radius:20px;
+      margin: 0 auto;
+      text-align: center;
+      color: blue;
+      -webkit-border-radius:20px;
+      -moz-border-radius:20px;
+      -ms-border-radius:20px;
+      -o-border-radius:20px;
+}
+
+.profile img {
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid rgba(250, 235, 215, 0.899) ;
+    margin-bottom: 20px;
+}
+
+.profile button {
+    background-color: rgba(31, 1, 118, 0.696);
+    color: antiquewhite;
+    width: 15%;
+    border: 2px solid rgba(250, 235, 215, 0.899) ;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
