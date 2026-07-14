@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 
+
+.nav {
+    background-color:bisque;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.nav .nav-links {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav> a {
+    width:70% ;
+    cursor: pointer;
+}
+
+.nav-img{
+    display:flex ;
+    width:6% ;
+}
+ 
+.absolute{
+    width: 30%;
+    background-color: aquamarine;
+    border-radius: 30px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+
+}
+
+.icon{
+    width: 20%;
+    background-color: aquamarine;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+.icon img {
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+.Transition {
+    background-color: bisque;
+    text-align: center;
+
+}
+
+.Transition button{
+    background-color: blueviolet;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition-duration: 1s;
+    transition-property: scale;
+
+}
+
+.Transition button:hover{
+    scale: calc(1.4);
+
+}
+*/
+/* .parent {
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} 
+
+.child {
+    background-color: blue;
+    width: 22%;
+} */
+/* 
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    gap: 5px;
+} 
+
+.child img {
+    width: 70%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.child h2 {
+    margin-top: 10px;
+}
+.child p {
+    margin-top: 10px;
+} */
+
+/* .hero {
+    background-image: url("../images/0101-lines.png");
+
+    background-size: cover;
+    height: 100vh;
+
+
+} */
+
+
+
+
+
