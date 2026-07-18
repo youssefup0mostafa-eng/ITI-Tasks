@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3,100px);
+    grid-template-areas: 
+    "cell1 cell2"
+    "cell3 cell4"
+    ;
+}
+
+.chaild {
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.item-1{
+    background-color: blueviolet;
+    grid-area: cell2;
+}
+
+.item-2{
+    background-color: rgb(7, 138, 161);
+    grid-area: cell3;
+}
+
+.item-3{
+    background-color: rgb(17, 7, 102);
+    grid-area: cell4;
+}
+
+.item-4{
+    background-color: rgb(226, 183, 64);
+    grid-area: cell1;
+}

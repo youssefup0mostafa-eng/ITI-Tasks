@@ -40,21 +40,14 @@
     width:6% ;
 }
 
+/* Hero Section */
+
 .first-section {
     background-color: blueviolet;
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
-}
-
-.first-center-section{
-
-    /* display: flex;
-    justify-content: center;
-    text-align: center;
-    align-content: center; */
-
 }
 
 .text-section-text {
@@ -171,6 +164,156 @@ p {
      padding: 1px;
 
 }
+
+/* Second White Section */
+
+.second-white-section {
+    background-color: rgba(169, 169, 169, 0.296);
+    display: flex;
+    margin:30px ;
+
+}
+
+.second-white-section .white-img{
+    width: 20%;
+    margin:30px ;
+    
+}
+
+.second-white-section h1,
+p {
+    color: black;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+    
+}
+
+/* Third White Section */
+
+.third-white-section {
+    display: flex;
+    text-align: center;
+
+
+}
+
+.third-white-section h1,
+p {
+    color: black;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+    
+}
+.third-white-section {
+    display: block;
+    margin: 0 auto ;
+
+}
+
+.productes {
+    width: 33%;
+}
+
+.productes img{
+    width: 80%;
+    padding: 5px;
+    margin: 15px;
+}
+
+.third-images {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Fourth White Section */
+
+.fourth-white-section {
+    display: flex;
+    text-align: center;
+
+
+}
+
+
+
+.fourth-white-section h1,
+p {
+    color: black;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+    
+}
+.fourth-white-section {
+    display: flex;
+    margin: 0 auto ;
+    justify-content: space-around;
+
+}
+
+.contact-inf {
+
+    padding: 30px;
+    text-align: start;
+    width: 50%;
+
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.contact-item i {
+    color: #26B8B0;
+    font-size: 18px;
+}
+
+.contact-item a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-item a:hover {
+    color: #26B8B0;
+}
+
+.map-section {
+    width: 40%;
+}
+
+.map {
+    width: 100%;
+    height: 700px;
+    border:0;
+    border-radius:12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 

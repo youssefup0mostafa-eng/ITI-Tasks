@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent div {
+    background-color: aquamarine;
+    display: flex;
+    position: relative;
+    width: 80%;
+
+} 
+ 
+.parent {
+    background-color: blueviolet;
+    width: 80%;
+    height: 50vh;
+    display: grid;
+    grid-template-areas: 
+    "call1 call2 call3"
+    "call4 call2 call5"
+    "call4 call6 call7";
+    /* grid-template-columns: repeat(3 , 1fr); */
+    margin: 10px auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item1 {
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    grid-area: call1;
+
+
+}
+
+.item2 {
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    grid-area: call2;
+
+    
+}
+
+.item3 {
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    grid-area: call3;
+    
+}
+
+.item4 {
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    grid-area: call4;
+    
+}
+
+.item5 {
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    grid-area: call5;
+    
+}
+
+.item6 {
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    grid-area: call6;
+    
+}
+
+.item7 {
+    background-image: url(../images/pic1.png);
+    background-size: cover;
+    grid-area: call7;
+    
+}
+
+*/
