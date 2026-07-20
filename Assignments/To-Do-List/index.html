@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <title>TO-DO-List</title>
 </head>
 <body>
-    <h1>My To-Do List</h1>
+    <div class="hero-section">
+        
+        <div class="card">
 
-    <input type="text" id="taskInput" placeholder="Add a new task">
-    <button id="addTaskButton">Add Task</button>
+            <div class="text-center">
+
+                <h1>My To-Do List</h1>
+
+            </div>
+            
+
+            <div class="text-center">
+    
+            <input class="form-control text-center" id="inputAddress" type="text" placeholder="Add a new task">
+            <button id="addTaskButton" class="btn btn-outline-primary" type="submit">Add Task</button>
+    
+            </div>
+
+        </div>
 
 
+    </div>
+
+    <script src="./JS/Script.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>
