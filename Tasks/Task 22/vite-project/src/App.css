@@ -182,3 +182,10 @@
     border-right-color: var(--border);
   }
 }
+
+#social ul li:hover{
+  background-color: blueviolet;
+  border-radius: 6px;
+  scale: 1.03;
+
+}

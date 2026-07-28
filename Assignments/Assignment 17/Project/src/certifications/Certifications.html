@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Certificates</title>
+
+  <style>
+    :root {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --text-primary: #ffffff;
+      --text-secondary: #cbd5e1;
+      --btn-bg: #3b82f6;
+      --btn-hover: #2563eb;
+      --shadow: rgba(0,0,0,0.3);
+    }
+
+    html.light-mode {
+      --bg-primary: #f5f5f5;
+      --bg-secondary: #ffffff;
+      --text-primary: #000000;
+      --text-secondary: #4a4a4a;
+      --btn-bg: #3b82f6;
+      --btn-hover: #2563eb;
+      --shadow: rgba(0,0,0,0.1);
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:var(--bg-primary);
+      color:var(--text-primary);
+      padding:40px;
+      transition:background 0.3s, color 0.3s;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    h1{
+      text-align:center;
+      font-size:42px;
+      flex-grow: 1;
+    }
+
+    .theme-toggle {
+      background: var(--btn-bg);
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .theme-toggle:hover {
+      background: var(--btn-hover);
+    }
+
+    .certificates{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:var(--bg-secondary);
+      border-radius:18px;
+      overflow:hidden;
+      transition:0.3s;
+      box-shadow:0 10px 25px var(--shadow);
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+    }
+
+    .card img{
+      width:100%;
+      height:220px;
+      object-fit:cover;
+    }
+
+    .content{
+      padding:20px;
+    }
+
+    .content h2{
+      font-size:22px;
+      margin-bottom:10px;
+    }
+
+    .content p{
+      color:var(--text-secondary);
+      margin-bottom:15px;
+      line-height:1.5;
+    }
+
+    .btn{
+      display:inline-block;
+      text-decoration:none;
+      background:var(--btn-bg);
+      color:white;
+      padding:10px 18px;
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:var(--btn-hover);
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 30px 0;
+      border-top: 1px solid var(--text-secondary);
+      text-align: center;
+      color: var(--text-secondary);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+    }
+
+    .footer-logo {
+      font-weight: bold;
+      font-size: 32px;
+      color: var(--text-primary);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .footer-logo em {
+      color: var(--btn-bg);
+      font-style: normal;
+      font-size: 38px;
+    }
+
+    footer p {
+      margin: 0;
+      line-height: 1.6;
+      white-space: nowrap;
+    }
+
+    footer p:nth-of-type(1) {
+      flex: 1;
+      text-align: center;
+    }
+
+    footer p:nth-of-type(2) {
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    footer a {
+      color: var(--btn-bg);
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      color: var(--btn-hover);
+      text-decoration: underline;
+    }
+
+    footer p:last-child {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>My Certificates</h1>
+    <button class="theme-toggle" id="themeToggle">🌙 Dark Mode</button>
+  </div>
+
+  <div class="certificates">
+
+    <div class="card">
+      <img src="images/cpp.jpg" alt="">
+      <div class="content">
+        <h2>C++ Certificate</h2>
+        <p>Completed C++ fundamentals course from IT Legend.</p>
+        <a href="#" class="btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/oop.jpg" alt="">
+      <div class="content">
+        <h2>OOP Certificate</h2>
+        <p>Completed Object Oriented Programming with C++.</p>
+        <a href="#" class="btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/python.jpg" alt="">
+      <div class="content">
+        <h2>Python Certificate</h2>
+        <p>Completed Python Programming Basics course.</p>
+        <a href="#" class="btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/network.jpg" alt="">
+      <div class="content">
+        <h2>Network Fundamentals</h2>
+        <p>Completed Computer Network Fundamentals course.</p>
+        <a href="#" class="btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/5g.jpg" alt="">
+      <div class="content">
+        <h2>5G Huawei</h2>
+        <p>Completed Huawei ICT Academy 5G Basics course.</p>
+        <a href="#" class="btn">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/problem-solving.jpg" alt="">
+      <div class="content">
+        <h2>Problem Solving</h2>
+        <p>Completed Algorithm & Problem Solving Level 1.</p>
+        <a href="#" class="btn">View Certificate</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer" translate="no">
+    <div class="footer-inner">
+      <div class="footer-logo">YM<em>.</em></div>
+      <p>© 2026 <span><a href="https://youssef-mostafa.netlify.app/" target="_blank">Youssef Mostafa ElSayed</a></span>. All rights reserved.</p>
+      <p>Cairo . Egypt EG</p>
+    </div>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const htmlElement = document.documentElement;
+
+    // Check for saved theme preference or default to dark mode
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    if (currentTheme === 'light') {
+      htmlElement.classList.add('light-mode');
+      themeToggle.textContent = '☀️ Light Mode';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      htmlElement.classList.toggle('light-mode');
+      
+      if (htmlElement.classList.contains('light-mode')) {
+        localStorage.setItem('theme', 'light');
+        themeToggle.textContent = '☀️ Light Mode';
+      } else {
+        localStorage.setItem('theme', 'dark');
+        themeToggle.textContent = '🌙 Dark Mode';
+      }
+    });
+  </script>
+
+</body>
+</html>

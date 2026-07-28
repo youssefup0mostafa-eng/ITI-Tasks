@@ -1,0 +1,139 @@
+/* h1 {
+    background-color: blueviolet;
+}
+
+  a {
+    color: var(--text-h);
+    font-size: 16px;
+    border-radius: 6px;
+    background: var(--social-bg);
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+
+    &:hover {
+      box-shadow: var(--shadow);
+    }
+    .button-icon {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      flex: 1 1 calc(50% - 8px);
+    }
+
+    a {
+      width: 100%;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+  }
+
+#social ul li:hover{
+  background-color: blueviolet;
+  border-radius: 6px;
+  scale: calc(1.02);
+
+}
+
+.socialContainer {
+    max-width: 200px;
+}
+ */
+
+/* After Convert */
+
+h1 {
+  background-color: blueviolet;
+}
+
+a {
+  color: var(--text-h);
+  font-size: 16px;
+  border-radius: 6px;
+  background: var(--social-bg);
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: box-shadow 0.3s;
+}
+
+a:hover {
+  box-shadow: var(--shadow);
+}
+
+a .button-icon {
+  height: 18px;
+  width: 18px;
+}
+
+@media (max-width: 1024px) {
+  li {
+    flex: 1 1 calc(50% - 8px);
+  }
+
+  a {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}
+
+#social ul li:hover {
+  background-color: blueviolet;
+  border-radius: 6px;
+  transform: scale(1.02);
+}
+
+/* Adds */
+
+.socialContainer {
+    max-width: 550px;
+    padding: 32px;
+    background: #1b1b23;
+    border: 1px solid #2d2d38;
+    border-radius: 18px;
+    margin: 40px auto;
+}
+
+#social ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+#social li{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+#social a{
+    width:auto;
+}
+
+.icon{
+    width:30px;
+    height:30px;
+
+    fill:#9b5cff;
+
+    margin-bottom:20px;
+}
+

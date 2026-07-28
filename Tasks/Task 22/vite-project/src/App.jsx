@@ -3,13 +3,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import About from './Components/About/About'
+import NavBar from './Components/NavBar/NavBar'
+import Home from './Components/Home/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <section id="center">
+          <NavBar></NavBar>
+          <About></About>
+          <Home></Home>
+
+
+
+      {/* <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
@@ -17,6 +26,8 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
+          <Home></Home>
+          <NavBar></NavBar>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
@@ -114,7 +125,7 @@ function App() {
       </section>
 
       <div className="ticks"></div>
-      <section id="spacer"></section>
+      <section id="spacer"></section> */}
     </>
   )
 }

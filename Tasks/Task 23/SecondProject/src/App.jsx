@@ -1,31 +1,50 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import profileImg from './assets/Profile.jpg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from './assets/vite.svg'
+// import heroImg from './assets/hero.png'
 import './App.css'
+import NavBar from './NavBar/NavBar'
+import Home from './Home/Home'
+import Footer from './Footer/Footer'
+import '../node_modules/bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  // const [count, setCount] = useState(0)
+  let [counter , setCounter] = useState(0);
+
+  function click() {
+    setCounter( counter+1 )
+  }
 
   return (
     <>
-      <section id="center">
+
+      <NavBar></NavBar>
+      <br></br>
+      <Home></Home>
+      <br></br>
+      <Footer></Footer>
+      <br></br>
+
+      <h2 className='bg-primary text-center text-light'>Counter :  {counter} </h2>
+      <button className='btn btn-info' onClick={click}>Click to Increase</button>
+
+
+      {/* <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={profileImg} className="framework" alt="React logo" />
-          <img src={reactLogo} className="vite" alt="React logo" />
+          <img src={reactLogo} className="framework" alt="React logo" />
+          <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Youssef Mostafa ELSayed Ibrahim</h1>
+          <h1>Get started</h1>
           <p>
-            Frontend Developer <code>React.js</code>
-          </p>
-          <p>
-            Software Engineer <code>C++</code>
+            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
-        <button>
+        <button
           type="button"
           className="counter"
           onClick={() => setCount((count) => count + 1)}
@@ -37,9 +56,6 @@ function App() {
       <div className="ticks"></div>
 
       <section id="next-steps">
-
-
-
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
@@ -61,16 +77,15 @@ function App() {
             </li>
           </ul>
         </div>
-
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
           <h2>Connect with us</h2>
-          <p>Browse Portfolio</p>
+          <p>Join the Vite community</p>
           <ul>
             <li>
-              <a href="https://github.com/youssefup0mostafa-eng" target="_blank">
+              <a href="https://github.com/vitejs/vite" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -82,48 +97,47 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/youssef-mostafa-413362382/" target="_blank">
+              <a href="https://chat.vite.dev/" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#linkedin-icon"></use>
+                  <use href="/icons.svg#discord-icon"></use>
                 </svg>
-                Linked-In
+                Discord
               </a>
             </li>
             <li>
-              <a href="https://api.whatsapp.com/send/?phone=201003860939&text&type=phone_number&app_absent=0" target="_blank">
+              <a href="https://x.com/vite_js" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#whatsapp-icon"></use>
+                  <use href="/icons.svg#x-icon"></use>
                 </svg>
-                WhatsApp
+                X.com
               </a>
             </li>
             <li>
-              <a href="https://youssefup0mostafa-eng.github.io/Portfolio/" target="_blank">
+              <a href="https://bsky.app/profile/vite.dev" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#code-icon"></use>
+                  <use href="/icons.svg#bluesky-icon"></use>
                 </svg>
-                Portfolio
+                Bluesky
               </a>
             </li>
           </ul>
         </div>
-        
       </section>
 
       <div className="ticks"></div>
-      <section id="spacer"></section>
+      <section id="spacer"></section> */}
     </>
   )
 }

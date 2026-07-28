@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -10,8 +10,6 @@
 
   &:hover {
     border-color: var(--accent-border);
-    background-color: var(--social-bg);
-    
   }
   &:focus-visible {
     outline: 2px solid var(--accent);
@@ -117,7 +115,7 @@
     height: 18px;
   }
 
-  a
+  a {
     color: var(--text-h);
     font-size: 16px;
     border-radius: 6px;
@@ -183,20 +181,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
-
-/* My Edit */
-
-#social ul li:hover{
-  background-color: blueviolet;
-  border-radius: 6px;
-  scale: calc(1.02);
-
-}
-
-#docs ul li:hover{
-  background-color: blueviolet;
-  border-radius: 6px;
-  scale: calc(1.02);
-
-}
+} */

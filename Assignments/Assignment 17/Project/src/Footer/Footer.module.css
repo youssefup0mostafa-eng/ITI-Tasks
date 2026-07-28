@@ -1,0 +1,40 @@
+.ym-logo svg {
+  display: block;
+  transition: transform 0.3s, filter 0.3s;
+  filter: drop-shadow(0 4px 16px rgba(255,62,108,0.3));
+}
+.ym-logo:hover svg {
+  transform: rotate(-6deg) scale(1.08);
+  filter: drop-shadow(0 8px 24px rgba(255,62,108,0.5));
+}
+
+.footer-center {
+  display: flex; flex-direction: column;
+  align-items: center; gap: 12px;
+}
+.footer-portfolio-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--font-display); font-size: 14px; font-weight: 700;
+  color: var(--text);
+  padding: 10px 24px;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  transition: all 0.25s;
+}
+.footer-portfolio-link:hover {
+  background: var(--accent3);
+  color: #0a0a0f;
+  border-color: var(--accent3);
+  box-shadow: 0 0 32px rgba(255,230,0,0.2);
+}
+.link-icon { transition: transform 0.2s; }
+.footer-portfolio-link:hover .link-icon { transform: translate(2px,-2px); }
+
+.footer-copy {
+  font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: 0.1em; color: var(--text-dim);
+}
+.footer-role {
+  font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: 0.16em; color: var(--text-dim);
+}
